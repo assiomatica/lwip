@@ -100,6 +100,7 @@
             ['OS=="mac"', {
                 'xcode_settings': {
                     'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
+                    'MACOSX_DEPLOYMENT_TARGET':'10.9',
                     'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.9',
                           '-stdlib=libc++',
                           '-std=c++0x']
@@ -215,6 +216,7 @@
             ['OS=="mac"', {
                 'xcode_settings': {
                     'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
+                    'MACOSX_DEPLOYMENT_TARGET':'10.9',
                     'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.9',
                           '-stdlib=libc++',
                           '-std=c++0x']
@@ -273,6 +275,7 @@
             ['OS=="mac"', {
                 'xcode_settings': {
                     'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
+                    'MACOSX_DEPLOYMENT_TARGET':'10.9',
                     'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.9',
                           '-stdlib=libc++',
                           '-std=c++0x']
